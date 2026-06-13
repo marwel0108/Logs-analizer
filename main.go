@@ -1,7 +1,10 @@
+/*
+Copyright © 2026 NAME HERE <EMAIL ADDRESS>
+*/
 package main
 
-import "fmt"
+import "logs-analizer/cmd"
 
 func main() {
-	fmt.Println("Comienzo del proyecto de analizador de archivos JSON a CSV")
+	cmd.Execute()
 }
